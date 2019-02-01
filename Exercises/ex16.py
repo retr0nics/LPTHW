@@ -1,6 +1,6 @@
 from sys import argv # import from sys the argv module
 
-script, filename = argv # unpacks  argv contents and stores
+script, filename = argv # unpacks  argv contents and stores # pylint: disable=unbalanced-tuple-unpacking
 
 print(f"We're going to erase {filename}.")
 print("If you dont want that, press CTRL + C (^C).")

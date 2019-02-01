@@ -1,4 +1,4 @@
-def cheese_and_crackers(cheese_count, boxes_of_crackers):
+def cheese_and_crackers(cheese_count, boxes_of_crackers): #defines a function that takes 2 arguments
     print(f"You have {cheese_count} cheeses!")
     print(f"You have {boxes_of_crackers} boxes of crackers!")
     print("Man that's enough for a party!")
@@ -22,3 +22,18 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print("And we cancombine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+def tenTimes(x):
+    print(x * 10,"\n***************\n")
+    return x
+
+tenTimes("one")
+
+print("This is the second one", tenTimes("two"))
+
+def functionRun(x): 
+    print(x)
+
+functionRun(tenTimes("Three"))
+
+tenTimes(input())

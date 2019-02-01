@@ -7,4 +7,4 @@ print("this is fun")
 print("yay printing")
 print("blah blah blah")
 print("just checking I can read from the book")
-print("yea I know how to print now, lets move on")
+print("yea I know how to print now, lets move on") #print , sends a line to the console
