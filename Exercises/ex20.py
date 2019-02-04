@@ -10,19 +10,19 @@ def rewind(f): # defs function that takes calls .seek, putting the read to byte 
 
 def print_a_line(line_count, f): # defs func that takes 2 arguments
     print(f"Line count is: {line_count}")
-    print(line_count, f.readline(), end = "") # prints one argument and reads a single line on the other
+    print(line_count, f.readline()) # prints one argument and reads a single line on the other
 
 current_file = open(input_file) # opens file object
 
-print("First let's print the whole file:\n")
+print("First let's print the whole file:")
 
 print_all(current_file) # calls the function with the current file object
 
-print("\nNow let's rewind, kind of like a tape.")
+print("Now let's rewind, kind of like a tape.")
 
 rewind(current_file) # calls the function with the current file object, rewinding the file position
 
-print("Let's print three lines:\n")
+print("Let's print three lines:")
 
 current_line = 1
 print_a_line(current_line, current_file)

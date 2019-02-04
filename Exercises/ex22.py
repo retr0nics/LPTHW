@@ -1,0 +1,1 @@
+# Go back over everything you have just done and type out every command, learn it and research

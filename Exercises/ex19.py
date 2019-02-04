@@ -24,16 +24,17 @@ print("And we cancombine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 def tenTimes(x):
-    print(x * 10,"\n***************\n")
+    ten = x * 10 + "\n***************\n"
+    print(ten)
+    return x
+
+def functionRun(x): 
     return x
 
 tenTimes("one")
 
-print("This is the second one", tenTimes("two"))
-
-def functionRun(x): 
-    print(x)
+print("This is the second one"), tenTimes("two")
 
 functionRun(tenTimes("Three"))
 
-tenTimes(input())
+tenTimes(input("Type FOUR..> "))
